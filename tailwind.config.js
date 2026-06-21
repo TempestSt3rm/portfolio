@@ -6,11 +6,8 @@ export default {
       colors: {
         primary: { DEFAULT: "#34FDDF" },
         secondary: { DEFAULT: "#02ABD1" },
-        background: { DEFAULT: "#04060A" },
-      },
-      backgroundImage: {
-        "radial-spot":
-          "radial-gradient(ellipse at center, rgba(52,253,223,0.16) 0%, rgba(4,6,10,0.85) 20%, #04060a 100%)",
+        thirdColor: { DEFAULT: "#004860" },
+        overlay: { DEFAULT: "#020713" },
       },
       animation: { "glow-left-right": "glowLeftRight 5s infinite" },
       keyframes: {

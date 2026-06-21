@@ -1,10 +1,13 @@
 import { Hero } from "./components/Hero";
+import { Education } from "./components/Education";
+import { Experience } from "./components/Experience";
 
 export default function App() {
   return (
-    <div className="relative min-h-screen">
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,rgba(52,253,223,0.18)_0%,rgba(4,6,10,0.85)_50%,#04060a_100%)]" />
+    <div className="relative min-h-screen bg-overlay">
       <Hero />
+      <Education />
+      <Experience />
     </div>
   );
 }

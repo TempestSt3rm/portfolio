@@ -4,10 +4,21 @@
 
 
 @layer base {
-  html, body { min-height: 100%; }
-
-  html { background-color: #04060a; }           
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html, body { 
+    min-height: 100%; 
+  }  
+  
   body {
-    @apply text-white bg-background;
+    @apply text-white;
+  }
+}
+
+@layer components {
+  .card-heading {
+    color: #ffffff;
   }
 }
