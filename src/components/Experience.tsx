@@ -17,19 +17,19 @@ const experiences: ExperienceItem[] = [
   {
     title: "Squarepoint Capital",
     company: "SDE Intern",
-    period: "Jun – Aug 2026",
+    period: "Jun - Aug 2026",
     logoSrc: "/Squarepoint_Capital_cropped.svg.png",
     description: [
       "Risk Engineering",
       "Developed a distributed integration-testing platform for risk applications.",
       "Supported risk applications through an on-call rotation during trading hours."
     ],
-    technologies: ["Python", "asyncio", "Distributed Systems"]
+    technologies: ["Python", "CI/CD","q kdb+"]
   },
   {
     title: "Autodesk",
     company: "SDE Intern",
-    period: "Sep – Dec 2025",
+    period: "Sep - Dec 2025",
     logoSrc: "/Autodesk_Logo_2021.svg.png",
     logoZoom: true,
     description: [
@@ -48,18 +48,18 @@ const experiences: ExperienceItem[] = [
       "Compliance Technology",
       "Automated large-scale employee data-disposition workflows."
     ],
-    technologies: ["Java", "Spring Boot", "SQL", "Kubernetes"]
+    technologies: ["Java", "Spring Boot", "SQL"]
   },
   {
     title: "Bell Canada",
     company: "SDE Intern",
-    period: "May – Aug 2024",
+    period: "May - Aug 2024",
     logoSrc: "/Bell_logo.svg.png",
     description: [
-      "Wireline Networks",
-      "Built internal full-stack microservices for non-technical managers to automate repetitive network operations."
+      "Wireline Network Automation",
+      "Built internal full-stack microservice for non-technical managers to automate operations."
     ],
-    technologies: ["Vue.js", "JavaScript", "Python", "SQL", "Docker", "OpenShift"]
+    technologies: ["Vue.js", "JavaScript", "Python", "SQL", "Docker"]
   }
 ];
 

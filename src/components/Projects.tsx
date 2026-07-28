@@ -4,10 +4,18 @@ import { ProjectCard } from "./ui/ProjectCard";
 
 const projects = [
   {
-    title: "McGill Rocket Team Radios Firmware",
+    title: "ASTRA Telemetry Protocol",
     description:
-      "Embedded radio and telemetry systems for long-range communication between a rocket and its ground station.",
-    technologies: ["C/C++", "Embedded Systems", "LoRa RF", "MQTT"]
+      "A shared packet format and control protocol connecting the flight computer, radios, and ground-station software.",
+    technologies: ["C/C++", "Embedded Systems", "Protocol Design", "LoRa RF"],
+    href: "/projects/mcgill-rocket-team-radios"
+  },
+  {
+    title: "Variable Telemetry System",
+    description:
+      "A configurable telemetry architecture for selecting, serializing, and transmitting flight variables.",
+    technologies: ["C/C++", "Telemetry", "Serialization", "Embedded Systems"],
+    href: "/projects/variable-telemetry-system"
   }
 ];
 
@@ -29,6 +37,7 @@ export const Projects: React.FC = () => {
               title={project.title}
               description={project.description}
               technologies={project.technologies}
+              href={project.href}
             />
           ))}
         </div>

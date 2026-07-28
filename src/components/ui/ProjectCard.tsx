@@ -38,11 +38,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   );
 
   const className =
-    "block rounded-lg border border-primary/20 bg-gray-600 bg-opacity-10 p-6 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:bg-opacity-15";
+    "group block rounded-lg border border-primary/20 bg-gray-600 bg-opacity-10 p-6 transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:bg-opacity-15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary";
 
   if (href) {
     return (
-      <a href={href} className={className}>
+      <a href={href} className={className} aria-label={`Read the ${title} project story`}>
         {content}
       </a>
     );
